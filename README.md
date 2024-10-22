@@ -49,6 +49,11 @@ source venv/bin/activate   # Mac/Linux
 pip install -r requirements.txt
 ```
 #### 3. Run the application (To be added as the backend is developed)
+For now, use Uvicorn (the ASGI server) to run the FastAPI application:
+```bash
+uvicorn app.main:app --reload
+
+```
 
 ## Future Plans
 

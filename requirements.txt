@@ -1,0 +1,20 @@
+# Web framework for API
+fastapi==0.95.0
+
+# Twitter API wrapper for social media scanning
+tweepy==4.13.0
+
+# Reddit API wrapper for future expansion
+praw==7.6.0
+
+# Task scheduling and background job handling
+celery==5.2.7
+
+# Redis as the broker for Celery and cache
+redis==4.5.1
+
+# Environment variable management (for API keys)
+python-dotenv==0.21.0
+
+# HTTP requests for external API calls
+requests==2.31.0

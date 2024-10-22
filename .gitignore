@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+# Virtual environment directory
+venv/
+.env/     # if you use a virtual environment called .env
+# Config files with sensitive information
+config.py   # Contains sensitive API keys or tokens
+.env        # Environment variables for storing API keys or secrets
+# Package files
+*.egg
+*.egg-info/
+dist/
+build/
+# VSCode-specific settings
+.vscode/
+# Local development environment files
+.DS_Store  # macOS
+*.swp      # Vi/Vim swap files
+# Log files
+*.log
+logs/
+# Unit test / coverage reports
+.coverage
+*.cover
+htmlcov/
+nosetests.xml
+coverage.xml
